@@ -44,4 +44,5 @@ before_cache:
 
 branches:
   except:
-    - "ci-test"
+    - "master"
+    - "dev"
