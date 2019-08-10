@@ -1,0 +1,52 @@
+
+About h-player-v2
+
+H-player-v2 is an application developed based on the Quasar Framework that enables online playback of hls video streams via electron packaging.
+Features
+
+    Support video source import
+    Support category browsing and search
+    Featured multi-window playback mode
+
+Get Started
+
+#Install dependencies
+Yarn install
+#Start development server
+Yarn electron:serve
+#Build binary package
+Yarn electron:build
+
+    Note
+
+        The configuration information of the resource collection network is located at src\store\module\site.js
+
+Customize Configuration
+
+See Configuration Reference.
+Windows Release
+
+For Windows users to provide compiled applications, please go to the release page to download the latest version.
+Instructions:
+
+    Download the latest version of the zip to release. Click to view gif
+    Unzip the file to any directory Click to view gif
+    Run the h-player.exe file in the unzipped directory.
+    Import video source interface is displayed when video source is not imported
+    Click No video source, click to select file import button
+    Select the video source file to import. Click to view gif sample file located in gist Click to view gif
+    Have fun
+
+    Note
+
+        The video source can be imported only once, and the video source can be re-imported or cleared in the settings interface.
+        If there is a network problem downloading the sample video source file, please refer to #14
+
+TODO
+
+    Highlight current classification
+    Page cache
+    Play in a separate window
+    Persistent configuration file
+    Support for importing video sources
+    Http/https function optimization
